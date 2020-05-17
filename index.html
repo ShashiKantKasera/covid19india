@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>covid19india</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Tracker-Covid-2019 (India Cases) </span>
+        
+        <div class="social-link">
+            <a class="px-2" href="https://www.facebook.com/matrixgeo/"><i class="fab fa-facebook-f"></i></a>
+                <a class="px-2" href="https://www.linkedin.com/company/matrix-geo-solutions-pvt-ltd/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+      </nav>
+    <div class="container-fluid p-5 bg-light text-center my-3">
+        <h1>Covid-2019 India  </h1>
+        <h5 class="text-muted">
+            Tracking covid 19 cases in India
+        </h5>
+    </div>
+    <div class="container my-2">
+        <div class="row text-center">
+            <div class="col-3 text-warning">
+                <h5> confirmed</h5>
+                <p id="confirmed"></p>
+
+            </div>
+            <div class="col-3 text-info">
+                <h5> Active</h5>
+                <p id="active"></p>
+
+            </div>
+            <div class="col-3 text-success">
+                <h5> Recovered</h5>
+                <p id="recovered"></p>
+
+            </div>
+            <div class="col-3 text-danger">
+                <h5> Deaths</h5>
+                <p id="deaths"></p>
+
+            </div>
+        </div>
+
+        <canvas id="myChart"></canvas>
+    </div>
+    <div id ="footer"class ="col-md-12">
+        <h4 id ="map_coords" class="text-center">CoronaVirus-Covid19 (India Cases)</h4>
+        <h4 class="text-center" >&copy;2020 <a href="https://www.linkedin.com/in/shashi-kant-kasera-msc-gis-be-it-a74a6a15a">Shashi Kant Kasera </a></h4>
+            </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+<script src="script.js"></script>
+</html>
